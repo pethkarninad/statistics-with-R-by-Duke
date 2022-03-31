@@ -1,0 +1,4 @@
+"0","selected_nzes2011 %>% "
+"0","  filter(!(is.na(jage))) %>%"
+"0","  summarise(agemean = mean(jage), agemedian = median(jage), agesd = sd(jage), "
+"0","            agemin = min(jage), agemax = max(jage))"

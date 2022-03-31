@@ -1,0 +1,4 @@
+"0","selected_nzes2011 %>% "
+"0","  filter(jnzflike %in% c(""0"",""10"")) %>%"
+"0","  group_by(jnzflike) %>% "
+"0","  summarise(count = n())"

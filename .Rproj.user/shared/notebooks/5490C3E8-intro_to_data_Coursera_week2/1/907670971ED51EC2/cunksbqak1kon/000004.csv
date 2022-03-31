@@ -1,0 +1,2 @@
+"0","# type your code for Question 2 here, and Knit"
+"0","sfo_feb_flights %>% summarise(mean_ar =mean(arr_delay),std=sd(arr_delay),IQR_arr= IQR(arr_delay)) "

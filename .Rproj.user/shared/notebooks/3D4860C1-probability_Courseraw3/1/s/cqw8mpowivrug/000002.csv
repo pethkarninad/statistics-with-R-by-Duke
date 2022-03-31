@@ -1,0 +1,2 @@
+"0","sim_unfair_coin <- sample(coin_outcomes, size = 100, replace = TRUE, "
+"0","                          prob = c(0.2, 0.8))"

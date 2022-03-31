@@ -1,0 +1,2 @@
+"0","ggplot(data = arbuthnot, aes(x = year, y = total)) +"
+"0","  geom_line()"

@@ -1,0 +1,2 @@
+"0","# type your code for the Exercise here, and Knit"
+"0","ggplot(data=sim_streak,aes(x=length))+geom_histogram(binwidth = 1)"

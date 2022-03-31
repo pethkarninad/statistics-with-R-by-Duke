@@ -1,0 +1,7 @@
+"0","selected_nzes2011 <- selected_nzes2011 %>% "
+"0","  mutate(numlikenzf = as.numeric(as.character(jnzflike)))"
+"2","Warning:"
+"2"," Problem with `mutate()` column `numlikenzf`.
+[34mi[39m `numlikenzf = as.numeric(as.character(jnzflike))`.
+[34mi[39m NAs introduced by coercion
+"

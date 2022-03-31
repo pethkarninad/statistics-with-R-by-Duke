@@ -1,0 +1,9 @@
+"0","selected_nzes2011 %>% "
+"0","  group_by(retiredage) %>% "
+"0","  summarise(medlike = median(jnzflike))"
+"2","Error: Problem with `summarise()` column `medlike`.
+[34mi[39m `medlike = median(jnzflike)`.
+[31mx[39m need numeric data
+[34mi[39m The error occurred in group 1: retiredage = ""retired age"".
+[90mRun `rlang::last_error()` to see where the error occurred.[39m
+"

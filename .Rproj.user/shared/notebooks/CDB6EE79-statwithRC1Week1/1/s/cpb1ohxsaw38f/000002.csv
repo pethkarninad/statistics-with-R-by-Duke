@@ -1,0 +1,3 @@
+"0","# type your code for Question 7 here, and Knit"
+"0","present <- present %>% mutate(prop_boy_girl = boys/girls)"
+"0","ggplot(data=present,aes(x=year,y=prop_boy_girl))+geom_point()"

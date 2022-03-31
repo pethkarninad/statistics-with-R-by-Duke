@@ -1,0 +1,2 @@
+"0","# type your code for Question 5 here, and Knit"
+"0","nycflights %>% group_by(month) %>% summarise(median_del = median(dep_delay)) %>% arrange(desc(median_del))"

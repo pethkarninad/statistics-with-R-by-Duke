@@ -1,0 +1,2 @@
+"0","ggplot(data = kobe_streak, aes(x = length)) +"
+"0","  geom_histogram(binwidth = 1)"

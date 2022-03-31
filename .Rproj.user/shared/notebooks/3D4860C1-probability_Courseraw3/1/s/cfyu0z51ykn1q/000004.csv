@@ -1,0 +1,2 @@
+"0","# type your code for the Exercise here, and Knit"
+"0","sim_basket <- sample(shot_outcomes,size=133,replace = TRUE, prob = c(0.45,0.55))"

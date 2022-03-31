@@ -1,0 +1,5 @@
+"0","selected_nzes2011 <- selected_nzes2011 %>% "
+"0","  mutate(retiredage = ifelse(jage >= 65, ""retired age"", ""working age""))"
+"0","selected_nzes2011 %>% "
+"0","  group_by(retiredage) %>% "
+"0","  summarise(count = n())"

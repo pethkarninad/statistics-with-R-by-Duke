@@ -1,0 +1,4 @@
+"0","selected_nzes2011 %>% "
+"0","  filter(jpartyvote != ""Don't know"") %>%"
+"0","  group_by(jpartyvote) %>% "
+"0","  summarise(count = n())"

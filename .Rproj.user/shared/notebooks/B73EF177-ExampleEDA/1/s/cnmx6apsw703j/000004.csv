@@ -1,0 +1,6 @@
+"0","selected_nzes2011 %>% "
+"0","  select(jpartyvote, jdiffvoting, _singlefav) %>% "
+"2","Error: unexpected input in:
+""selected_nzes2011 %>% 
+  select(jpartyvote, jdiffvoting, _""
+"

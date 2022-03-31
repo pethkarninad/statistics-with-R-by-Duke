@@ -1,0 +1,74 @@
+---
+title: "Introduction to probability and Data with R: Week 3"
+output: html_notebook
+---
+
+
+This week we will discuss probability, conditional probability, the Bayes' theorem, and provide a light introduction to baysian interface.
+
+suggested reading: openintro stat. chapter 2 section 2.1
+
+LO 1. Define the probability of an outcome as the proportion of times the outcome would occur if we observed the random process that gives rise to it an infinite number of times. 
+
+LO 2. Explain why the long-run relative frequency of repeated independent events settles down to the true probability as the number of trials increases, i.e. why the law of large numbers holds. 
+
+LO 3. Define disjoint (mutually exclusive) events as events that cannot both happen at the same time: 
+
+If A and B are disjoint, P(A and B) = 0
+
+LO 4. Distinguish between disjoint and independent events. 
+
+If A and B are independent, then having information on A does not tell us anything about B (and vice versa).
+
+If A and B are disjoint, then knowing that A occurs tells us that B cannot occur (and vice versa).
+
+Disjoint (mutually exclusive) events are always dependent since if one event occurs we know the other one cannot.
+
+LO 5. Draw Venn diagrams representing events and their probabilities. 
+
+LO 6. Define a probability distribution as a list of the possible outcomes with corresponding probabilities that satisfies three rules: 
+
+The outcomes listed must be disjoint.
+
+Each probability must be between 0 and 1.
+
+The probabilities must total 1.
+
+LO 7. Define complementary outcomes as mutually exclusive outcomes of the same random process whose probabilities add up to 1. 
+
+If A and B are complementary, P(A) + P(B) = 1
+
+LO 8. Distinguish between union of events (A or B) and intersection of events (A and B).
+
+Calculate the probability of union of events using the (general) addition rule:
+
+    If A and B are not mutually exclusive, P(A or B) = P(A) + P(B) − P(A and B) 
+
+    If A and B are mutually exclusive, P (A or B) = P (A) + P (B), since for mutually exclusive events P(A and B) = 0 
+
+Calculate the probability of intersection of independent events using the multiplication rule:
+
+    If A and B are independent, P(A and B) = P(A) × P(B) 
+
+    If A and B are dependent, P(A and B) = P(A|B) × P(B) 
+
+1. Defining Probability
+2. Conditional Probability
+3. 
+
+
+
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.

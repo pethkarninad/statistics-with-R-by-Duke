@@ -1,0 +1,2 @@
+"0","selected_nzes2011 <- selected_nzes2011 %>%"
+"0","  mutate(sameparty = ifelse(jpartyvote == X_singlefav, ""same"", ""different""))"

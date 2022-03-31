@@ -1,0 +1,2 @@
+"0","shot_outcomes <- c(""H"", ""M"")"
+"0","sim_basket <- sample(shot_outcomes, size = 1, replace = TRUE)"

@@ -1,0 +1,6 @@
+"0","selected_nzes2011 %>% "
+"0","  group_by(jpartyvote, X_singlefav, sameparty) %>%"
+"0","  summarise(count = n()) %>% "
+"0","  filter(is.na(sameparty))"
+"1","`summarise()` has grouped output by 'jpartyvote', 'X_singlefav'. You can override using the `.groups` argument.
+"

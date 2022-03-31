@@ -1,0 +1,2 @@
+"0","# type your code for Question 6 here, and Knit"
+"0","present <- present %>% mutate(more_boys = boys > girls)"
